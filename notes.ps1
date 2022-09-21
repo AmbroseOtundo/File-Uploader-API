@@ -10,6 +10,12 @@
     from django.conf.urls.static import static
 
     urlpatterns[some urls]
-    
+
     if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+# Adding images to products
+ pip install Pillow to allow upload_to of images
+    class ProductImage(models.Model):
+        product = models.ForeignKey(Product, on_delete=models.CASCADE, related_name='images')
+        image = models.ImageField(upload_to='store/images')
