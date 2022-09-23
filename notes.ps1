@@ -75,3 +75,5 @@ In every application we have resource intensive tasks such as:
     -- pip install redis
     -- celery has been deprecated in running in windows, so fire up WSL for ubuntu
     -- pip install celery 
+    -- check git log for changed files
+    -- celery -A storefront worker --loglevel=info :-- starts Celery
