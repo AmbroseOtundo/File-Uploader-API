@@ -187,3 +187,5 @@ DEFAULT_FROM_EMAIL = 'from@ambrose.com'
 ADMINS = [
     ('Ambrose', 'admin@tik.com')
 ]
+
+CELERY_BROKER_URL = 'redis://localhost:6379/1'

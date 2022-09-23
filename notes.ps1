@@ -71,4 +71,7 @@ In every application we have resource intensive tasks such as:
                 -- Redis (In memory data store)
                 -- RabbitMQ (A real enterprise-grade broker)
     -- installing Redis
-    -- docker run -d -p 6379:6379 redis
+    -- docker run -d -p 6379:6379 redis -- run this in a powershell or any terminal
+    -- pip install redis
+    -- celery has been deprecated in running in windows, so fire up WSL for ubuntu
+    -- pip install celery 
