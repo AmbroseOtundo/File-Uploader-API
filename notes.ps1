@@ -33,3 +33,8 @@
  --CORS == Cross Origin Resource Sharing -- this is a security feature
  -- https://github.com/adamchainz/django-cors-headers
  -- python -m pip install django-cors-headers
+-- setting set up Origin
+# Managing Images in the Admin
+-- check the commit for the file changes. such a crucial piece of coding
+
+
