@@ -22,4 +22,7 @@
 
 # Building an API to upload images
  -- an endpoint -- : /products/1/images/
-#  Returning images from the API
+#  Returning images from the 
+# Validating uploaded images
+    -- We create a new file of Validating the error of  large file execeding 500 kb. the file is validators.py 
+        the store app
