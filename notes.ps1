@@ -37,4 +37,10 @@
 # Managing Images in the Admin
 -- check the commit for the file changes. such a crucial piece of coding
 
+# Sending emails 
+    # -- Setting a fake smtp server
+    # https://github.com/rnwood/smtp4dev
+    # docker run --rm -it -p 3000:80 -p 2525:25 rnwood/smtp4dev -- run this multiple times until it works
+
+
 
