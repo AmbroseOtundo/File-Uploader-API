@@ -22,3 +22,4 @@
 
 # Building an API to upload images
  -- an endpoint -- : /products/1/images/
+#  Returning images from the API
