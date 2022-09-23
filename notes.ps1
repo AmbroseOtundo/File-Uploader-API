@@ -70,3 +70,5 @@ In every application we have resource intensive tasks such as:
             -- The two famous broker are:
                 -- Redis (In memory data store)
                 -- RabbitMQ (A real enterprise-grade broker)
+    -- installing Redis
+    -- docker run -d -p 6379:6379 redis
