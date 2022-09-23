@@ -26,3 +26,10 @@
 # Validating uploaded images
     -- We create a new file of Validating the error of  large file execeding 500 kb. the file is validators.py 
         the store app
+    -- check the productimage model for the image validators
+# Setting up the client app
+-- use npm to start the client app
+# Enabling Cors
+ --CORS == Cross Origin Resource Sharing -- this is a security feature
+ -- https://github.com/adamchainz/django-cors-headers
+ -- python -m pip install django-cors-headers
