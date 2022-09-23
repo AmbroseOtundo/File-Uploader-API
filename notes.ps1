@@ -51,4 +51,22 @@
     # Sending emails
     # Sending templated emails -- pip install django-templated-mail
 
-
+# Runnig background Resources
+# intro to Celery:
+In every application we have resource intensive tasks such as:
+    -- Processsing Images
+    -- Generating Reports
+    -- Sending emails
+    -- Running machine learning models
+-- Celery helps to run tasks and also help us schedule tasks
+    # 1. Message brokers
+    -- Our application commucates with workers through a queue
+     fig 1.1 
+        APPLICATION     ----- queue     ---  worker1
+                        {MESSAGE BROKER}     worker2
+                                            worker3
+    -- Message brokers pass messages btn applications in a reliable way
+    -- If one broker goes offline we can set up other brokers to continue working
+            -- The two famous broker are:
+                -- Redis (In memory data store)
+                -- RabbitMQ (A real enterprise-grade broker)
