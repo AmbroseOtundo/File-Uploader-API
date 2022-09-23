@@ -41,6 +41,12 @@
     # -- Setting a fake smtp server
     # https://github.com/rnwood/smtp4dev
     # docker run --rm -it -p 3000:80 -p 2525:25 rnwood/smtp4dev -- run this multiple times until it works
-
+    # configuring the Email Backend: -- smtp (default)
+                                     -- console Backend:
+                                     -- file Backend:
+                                     -- Locmem Backend:
+                                     -- Dummy Backend:
+                                     EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+                                        : -- we can replace smtp with the above other backends
 
 
