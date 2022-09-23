@@ -49,5 +49,6 @@
                                      EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
                                         : -- we can replace smtp with the above other backends
     # Sending emails
+    # Sending templated emails -- pip install django-templated-mail
 
 
