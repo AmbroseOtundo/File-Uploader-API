@@ -84,3 +84,9 @@ In every application we have resource intensive tasks such as:
 --  We use Celery beat as a task schedular.
 -- more configuration check celery beat docs
 -- run after configuration -- celery -A storefront beat
+
+# Monitoring celery tasks with flower
+-- install it :
+-- pip install flower
+-- starting it -- : celery -A storefront flower
+-- acces it at http://localhost:5555/
