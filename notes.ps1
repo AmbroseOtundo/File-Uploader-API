@@ -79,3 +79,8 @@ In every application we have resource intensive tasks such as:
     -- check git log for changed files
     -- celery -A storefront worker --loglevel=info :-- starts Celery
     -- A specifies our  project name. and log level for debugging
+
+# Scheduling Periodic Tasks
+--  We use Celery beat as a task schedular.
+-- more configuration check celery beat docs
+-- run after configuration -- celery -A storefront beat
