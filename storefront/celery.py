@@ -4,6 +4,8 @@ from celery import Celery
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'storefront.settings')
 
+# Setting up the celery app.
 celery = Celery('storefront')
-celery.config_from_object('django.conf:settings', namespace='CELERY')
+ # namespace Telling celery to look for the `CELERY` namespace in the settings file.
+celery.config_from_object('django.conf:settings',namespace='CELERY')
 celery.autodiscover_tasks()

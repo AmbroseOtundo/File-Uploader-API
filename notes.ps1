@@ -72,8 +72,10 @@ In every application we have resource intensive tasks such as:
                 -- RabbitMQ (A real enterprise-grade broker)
     -- installing Redis
     -- docker run -d -p 6379:6379 redis -- run this in a powershell or any terminal
+    -- check if container is running  --- docker ps
     -- pip install redis
     -- celery has been deprecated in running in windows, so fire up WSL for ubuntu
     -- pip install celery 
     -- check git log for changed files
     -- celery -A storefront worker --loglevel=info :-- starts Celery
+    -- A specifies our  project name. and log level for debugging
