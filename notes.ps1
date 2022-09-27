@@ -106,3 +106,11 @@ In every application we have resource intensive tasks such as:
 -- The convention for writing is use of underscores
 e.g -- test_collections
 -- the test should be clear on what it is Testing
+
+# Running our tests
+-- creat a config file
+-- in root folder create pytest.ini
+-- run pytest in the cli
+-- we can target specific modules , class, folder etc
+-- pytest store/tests/test_collectionspy::testcreatecollection
+-- run tests with anonymouse attribute we can use -- pytest k
