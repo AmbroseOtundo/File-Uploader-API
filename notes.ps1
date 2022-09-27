@@ -132,3 +132,6 @@ we run a decorator @pytest.mark.skip on a specific method
 # Authenticating the user
 # Writing a test for the above
 # Single or Multiple Assertions
+# Fixtures
+-- helps remove duplication.
+-- create conftest.py
