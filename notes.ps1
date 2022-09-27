@@ -90,3 +90,19 @@ In every application we have resource intensive tasks such as:
 -- pip install flower
 -- starting it -- : celery -A storefront flower
 -- acces it at http://localhost:5555/
+
+# Automated Testing
+-- Note --  Test behaviours and not implementations
+-- 
+# Testing Frameworks
+-- unittest
+-- pytest
+
+-- we use pytest because it has less boilerplate and tons of support
+-- pip install -U pytest
+-- pip install -U pytest == for django
+
+# Writing our first test
+-- The convention for writing is use of underscores
+e.g -- test_collections
+-- the test should be clear on what it is Testing
