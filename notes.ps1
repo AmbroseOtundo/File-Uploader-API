@@ -114,3 +114,6 @@ e.g -- test_collections
 -- we can target specific modules , class, folder etc
 -- pytest store/tests/test_collectionspy::testcreatecollection
 -- run tests with anonymouse attribute we can use -- pytest k
+
+# Skipping Tests
+we run a decorator @pytest.mark.skip on a specific method
