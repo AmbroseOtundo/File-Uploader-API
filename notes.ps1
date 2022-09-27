@@ -117,3 +117,17 @@ e.g -- test_collections
 
 # Skipping Tests
 we run a decorator @pytest.mark.skip on a specific method
+
+# Continous testing:
+-- Two way of running tests:
+    -- Before pushing to github or demand
+    -- Continous Testing -- all the 
+    -- install pip install pytest-watch
+    -- we use ptw on  the cli to Continously run our tests as we develop an application 
+
+# Running and Debugging Tests in VsCode
+-- we use the Testing exentension, select pythontesting , select pytest, select root folder and we can run our tests.
+-- we can also use breakpoints to debug.
+
+# Authenticating the user
+# Writing a test for the above
