@@ -44,6 +44,7 @@ kombu==5.2.4
 lxml==4.9.1
 MarkupSafe==2.1.1
 mock==4.0.3
+model-bakery==1.7.0
 mysqlclient==2.1.1
 oauthlib==3.2.1
 packaging==21.3

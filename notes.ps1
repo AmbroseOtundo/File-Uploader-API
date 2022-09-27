@@ -135,3 +135,7 @@ we run a decorator @pytest.mark.skip on a specific method
 # Fixtures
 -- helps remove duplication.
 -- create conftest.py
+
+# Creating Model instances --
+-- Retrieving a collection test.
+-- pip install model_bakery -- helps create objects and Managing relationships
