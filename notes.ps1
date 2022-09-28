@@ -182,3 +182,19 @@ we run a decorator @pytest.mark.skip on a specific method
 -- follow the procedure
 -- http://localhost:8000/silk/
 -- silk helps us see the details of our requests of our app
+
+# Verifying Optimizations
+
+
+# CACHING
+-- This a Perfomance optimization techninique.
+-- The big problem with this if the db is updated then cache data will not be useful. 
+-- Diff types of Cache
+        -- Local memory
+        -- Memchached
+        -- Redis
+        -- database cache
+
+# simulating a slow api endpoint
+
+
