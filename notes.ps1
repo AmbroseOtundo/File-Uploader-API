@@ -196,5 +196,6 @@ we run a decorator @pytest.mark.skip on a specific method
         -- database cache
 
 # simulating a slow api endpoint
-
+# Configuring Caching with redis
+# using redis as a cache -- pip install django-redis
 
