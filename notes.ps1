@@ -198,4 +198,16 @@ we run a decorator @pytest.mark.skip on a specific method
 # simulating a slow api endpoint
 # Configuring Caching with redis
 # using redis as a cache -- pip install django-redis
+# Set up the settings up for use with redis
+    CACHES = {
+    "default": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379/1",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    }
+}
+
+# Using the Low-level Cache API
 
