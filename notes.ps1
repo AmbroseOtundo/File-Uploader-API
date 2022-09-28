@@ -151,3 +151,34 @@ we run a decorator @pytest.mark.skip on a specific method
                 -- Register, sign in, sign out
 -- We will create test scripts for the same
 -- LESSON 43
+-- running Locust -- locust -f .\locustfiles\browse_products.py -- make sure the server  is running
+-- then open http://localhost:8089/ in Browser
+-- NOTE: DO NOT FORGET TO HAVE DATA IN YOUR DB:
+
+# Perfomance optimization techniniques
+#  Optimize our python code
+    # -- TIPS
+    1. Preload related objects
+        -- Product.objects.select_related('...')
+        -- Product.objects.prefetch_related('...')
+    2. Load only what you need
+        -- Product.objects.only('title') 
+        -- Product.objects.defer('description') 
+    3. Use values
+        -- Product.objects.values()
+        -- Product.objects.values_list()
+    4. Count Properly
+        -- Product.objects.count()
+    5. Bulk create/updating
+        -- Product.objects.bulk_create([])
+# Rewrite the Query
+# Tune the database
+# Cache the result
+# Buy more hardware
+-- Optimize critical parts
+
+# Profiling with Silk
+-- django-silk in github
+-- follow the procedure
+-- http://localhost:8000/silk/
+-- silk helps us see the details of our requests of our app
