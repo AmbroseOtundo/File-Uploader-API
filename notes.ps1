@@ -210,4 +210,5 @@ we run a decorator @pytest.mark.skip on a specific method
 }
 
 # Using the Low-level Cache API
+# Better way  to cacheh our views
 
