@@ -139,3 +139,15 @@ we run a decorator @pytest.mark.skip on a specific method
 # Creating Model instances --
 -- Retrieving a collection test.
 -- pip install model_bakery -- helps create objects and Managing relationships
+
+# Perfomance Testing
+-- run Perfomance testing while Building the application
+
+# Installing Locust-- for testing
+-- pip install 
+# Creating a test script
+-- Our app core use cases are :
+                -- Browse products
+                -- Register, sign in, sign out
+-- We will create test scripts for the same
+-- LESSON 43
