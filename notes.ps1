@@ -228,4 +228,9 @@ we run a decorator @pytest.mark.skip on a specific method
 -- pip install whitenoise
 
 # Configuring Logging
- 
+#  Using gunicorn as a prod server but doesnot work on windows:
+    -- work around is pip install waitress
+    --waitress-serve --listen=*:8000 storefront.wsgi:application
+    -- use localhost:8000
+# Deployment
+--
