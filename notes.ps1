@@ -217,3 +217,9 @@ we run a decorator @pytest.mark.skip on a specific method
   -- select 2 -- that is the db number of the cache
   -- we can delete the cache -- flushall 
 
+# preparing for production
+-- Homepage
+
+# static files
+-- run python Manage.py collect static every time when you are deploying
+
