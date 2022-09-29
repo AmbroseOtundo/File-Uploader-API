@@ -234,3 +234,10 @@ we run a decorator @pytest.mark.skip on a specific method
     -- use localhost:8000
 # Deployment
 --
+# Genearate env variables
+-- djecrety.ir
+-- heroku Log in
+-- add allowed hosts
+-- heroku config:set SECRET_KEY="x$d&jp4_qzj+md_!wn1llqmpz0y92_kc@-2f_ihl_xcbksk3t7"
+-- heroku config:set DJANGO_SETTINGS_MODULE=storefront.settings.prod
+-- create a procfile -- how to start our application
