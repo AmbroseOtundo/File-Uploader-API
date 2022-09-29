@@ -150,7 +150,6 @@ we run a decorator @pytest.mark.skip on a specific method
                 -- Browse products
                 -- Register, sign in, sign out
 -- We will create test scripts for the same
--- LESSON 43
 -- running Locust -- locust -f .\locustfiles\browse_products.py -- make sure the server  is running
 -- then open http://localhost:8089/ in Browser
 -- NOTE: DO NOT FORGET TO HAVE DATA IN YOUR DB:
