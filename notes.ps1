@@ -211,4 +211,9 @@ we run a decorator @pytest.mark.skip on a specific method
 
 # Using the Low-level Cache API
 # Better way  to cacheh our views
+# Managing Redis Cache Content
+ -- we examine the redis docker container
+  -- docker exec -it 4e0f57ae74e5 redis-cli
+  -- select 2 -- that is the db number of the cache
+  -- we can delete the cache -- flushall 
 
