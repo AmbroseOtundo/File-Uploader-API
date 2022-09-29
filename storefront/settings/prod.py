@@ -2,16 +2,18 @@ from .common import *
 import os
 import dj_database_url
 
+DEBUG = False
+
 SECRET_KEY = os.environ['SECRET_KEY']
 
-DEBUG = False
 
 ALLOWED_HOSTS = ['file-prod.herokuapp.com']
 
 DATABASES = {
     'default': dj_database_url.config()
 }
-REDIS_URL = os.environ(['REDIS_URL'])
+
+REDIS_URL = os.environ['REDIS_URL']
 
 CELERY_BROKER_URL = REDIS_URL
 
