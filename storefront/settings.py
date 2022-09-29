@@ -226,6 +226,7 @@ LOGGING = {
         'file': {
             'class': 'logging.FileHandler',
             'filename': 'general.log',
+            # verbose to generate the general.log file
             'formatter': 'verbose'
         }
     },
