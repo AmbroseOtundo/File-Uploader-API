@@ -223,3 +223,6 @@ we run a decorator @pytest.mark.skip on a specific method
 # static files
 -- run python Manage.py collect static every time when you are deploying
 
+# Serving static files
+-- django uses whitenoise to serve static files 
+-- pip install whitenoise
