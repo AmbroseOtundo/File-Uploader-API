@@ -6,9 +6,9 @@ import uuid
 
 class Migration(migrations.Migration):
 
-    dependencies = [
-        ('store', '0006_auto_20210903_1318'),
-    ]
+    # dependencies = [
+    #     ('store', '0006_auto_20210903_1318'),
+    # ]
 
     operations = [
         migrations.AlterField(

@@ -2,8 +2,7 @@ from django.contrib import admin
 from django.conf import settings
 from django.core.validators import MinValueValidator
 from django.db import models
-# from uuid import uuid4
-# import uuid
+from uuid import uuid4
 
 from store.validators import validate_file_size
 
@@ -123,10 +122,7 @@ class Address(models.Model):
 
 
 class Cart(models.Model):
-    # Commented, was unable to solve this error
-    #  django.db.utils.ProgrammingError: cannot cast type bigint to uuid. spent 10 hours debugging
-    # id = models.UUIDField(primary_key=True, default=uuid.uuid4, unique=True) 
-    id = models.IntegerField(primary_key=True) 
+    id = models.UUIDField(primary_key=True, default=uuid4)
     created_at = models.DateTimeField(auto_now_add=True)
 
 
