@@ -7,7 +7,7 @@ DEBUG = False
 SECRET_KEY = os.environ['SECRET_KEY']
 
 
-ALLOWED_HOSTS = ['file-prod.herokuapp.com']
+ALLOWED_HOSTS = ['purch-prod.herokuapp.com']
 
 DATABASES = {
     'default': dj_database_url.config()
