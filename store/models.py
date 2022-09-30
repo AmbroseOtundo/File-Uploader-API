@@ -126,7 +126,7 @@ class Cart(models.Model):
     # Commented, was unable to solve this error
     #  django.db.utils.ProgrammingError: cannot cast type bigint to uuid. spent 10 hours debugging
     # id = models.UUIDField(primary_key=True, default=uuid.uuid4, unique=True) 
-    id = models.IntegerField(primary_key=True, unique=True) 
+    id = models.IntegerField(primary_key=True) 
     created_at = models.DateTimeField(auto_now_add=True)
 
 
