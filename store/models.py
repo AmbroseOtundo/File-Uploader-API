@@ -1,4 +1,6 @@
 from enum import unique
+from pickle import TRUE
+from tkinter.tix import Tree
 from django.contrib import admin
 from django.conf import settings
 from django.core.validators import MinValueValidator
@@ -124,7 +126,7 @@ class Address(models.Model):
 
 
 class Cart(models.Model):
-    id = models.UUIDField(primary_key=True, default=uuid.uuid4)
+    id = models.UUIDField(primary_key=True, default=uuid.uuid4, unique=True)
     created_at = models.DateTimeField(auto_now_add=True)
 
 
