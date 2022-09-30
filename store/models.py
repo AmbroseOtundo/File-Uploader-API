@@ -1,6 +1,3 @@
-from enum import unique
-from pickle import TRUE
-from tkinter.tix import Tree
 from django.contrib import admin
 from django.conf import settings
 from django.core.validators import MinValueValidator
