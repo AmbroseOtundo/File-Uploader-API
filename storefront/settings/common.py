@@ -39,15 +39,16 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django_filters',
     'corsheaders',
-    'silk',
+    # 'silk',
     'rest_framework',
-    'djoser',
+    # 'djoser',
     'playground',
     'debug_toolbar',
     'store',
     'tags',
     'likes',
     'core',
+    'drf_yasg'
 ]
 
 MIDDLEWARE = [
@@ -156,12 +157,12 @@ REST_FRAMEWORK = {
 
 AUTH_USER_MODEL = 'core.User'
 
-DJOSER = {
-    'SERIALIZERS': {
-        'user_create': 'core.serializers.UserCreateSerializer',
-        'current_user': 'core.serializers.UserSerializer',
-    }
-}
+# DJOSER = {
+#     'SERIALIZERS': {
+#         'user_create': 'core.serializers.UserCreateSerializer',
+#         'current_user': 'core.serializers.UserSerializer',
+#     }
+# }
 
 SIMPLE_JWT = {
     'AUTH_HEADER_TYPES': ('JWT',),
